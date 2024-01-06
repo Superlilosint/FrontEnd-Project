@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intern Project</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <main class="container1">
@@ -29,16 +30,38 @@
         </ul>
       </nav>
 
-    
       <section class="picture">
         <img src="assets/top.svg" alt="top-img">
       </section>
       
       <section class="info">
         <div class="profile-card">
-          <div class="first">
-              <h1>75%</h1>
+          <div class="loader">
+            <div class="skill">
+            <div class="outer">
+                <div class="inner">
+                    <div id="number">
+                        75%
+                    </div>
+                </div>
+            </div>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <defs>
+                    <linearGradient id="GradientColor">
+                
+                        <stop offset="0%" stop-color="#DA22FF" />
+                
+                        <stop offset="100%" stop-color="#9733EE" />
+                
+                    </linearGradient>
+                
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+            </div>
           </div>
+    
           <div class="second">
               <div class="light"></div>
               <p>In Process</p>
