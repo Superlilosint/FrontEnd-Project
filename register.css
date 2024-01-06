@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 370vh;
+    width: 100%;
+}
+.main .first {
+    background-image: url(assets/title-pic.svg);
+    width: 100%;
+    height: 382px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;    
+}
+
+
+
+.first .text1{
+    width: 880px;
+    margin: 0 0 0 50px;
+
+}
+
+.first .text1 h2{
+    font-family: Playfair Display;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: 1.px;
+    text-align: left;
+
+}
+
+.first .text1 p{
+    font-family: Geologica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 0 45px 55px;
+}
+.second .inner-second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    
+}
+
+ .second .text2 .project{
+    font-family: Geologica;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color:#358EB5;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+
+}
+
+.second .text2 h2{
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 10px;
+    
+
+}
+
+.second .text2 .description {
+    font-family: Geologica;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 832px;
+    padding-right: 57px;
+}
+
+.third {
+    background-image: url(assets/background-img.svg);
+    width: 100%;
+    height: 559px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 72px;
+}
+
+.third .third-inner {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.mentor-pic {
+    box-shadow: 10px 10px 0 white;
+    /* margin-bottom: 8px; */
+
+}
+.mentor-info p{
+    font-family: Geologica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: 8px;
+
+}
+
+.mentor-intro {
+    width: 67%;
+
+}
+
+.mentor-intro h2{
+    margin-bottom: 20px;
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    text-align: left;  
+}
+
+.mentor-intro p {
+    font-family: Geologica;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.fourth {
+    text-align: center;
+    padding: 65px 0 70px 0;
+}
+.fourth .team {
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.fourth .profiles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 51px;
+
+}
+
+.profiles .ceo {
+    border: 1px solid black;
+    padding-bottom: 21px;
+}
+
+.ceo .image1 {
+    padding: 18px 18px 2px 18px;
+    position: relative;
+
+}
+
+.image1 .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 11px;
+    left: 115px;
+}
+
+
+.ceo .info1 .name {
+    font-family: Geologica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+}
+
+.ceo .info1 .position {
+    font-family: Geologica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: center;    
+    margin-top: 3px;
+}
+
+footer {
+
+    background-color: black;
+    color: white;
+}
+.main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 81vw;
+    margin: auto;
+    padding: 40px 0;
+
+}
+
+.first-foot h2{
+    text-transform: uppercase;
+    padding: 0px 0 25px 0px;
+    font-family: Geologica;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    
+
+}
+
+.first-foot p {
+    font-family: Geologica;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: justify;
+    width: 23vw;
+}
+
+.second-foot h2{
+    margin-bottom: 18px;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: justified;
+
+}
+
+.second-foot .gallery{
+    width: 300px;
+    height: 200px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.third-foot h2{
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: justified;
+
+}
+.third-foot .quick-links{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    vertical-align: top;
+    gap: 44px;
+}
+
+.quick-links .links ul, .links a,
+.features ul , .features a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: Geologica;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: justified;
+
+}

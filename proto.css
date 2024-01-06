@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: greenyellow;
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+   text-align: center;
+}
+
+.profile-card {
+    height: 400px;
+    width: 326px;
+    background-color: white;
+    border-radius: 24px;
+    padding: 56px 57px;
+    position: relative;
+    /* transform: rotate(-45deg); */
+    /* display: inline-block;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent; */
+
+
+}
+
+.profile-card .first {
+    height: 200px;
+    width: 200px;
+    border: 30px solid white;
+    border-radius: 50%;
+    border-color: #6171FF #6171FF #6171FF #D9D9D9;
+    transform: rotate(45deg);
+
+}
+
+.profile-card .first h1{
+    /* position: absolute;
+    top: 138px;
+    left: 636px; */
+
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    font-size: 35px;
+}
+
+.profile-card .second {
+    background-color: white;
+    width: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 280px;
+    left: 109px;
+    border-radius: 8px;
+    border: 1px solid #ABABAB;
+}
+
+.light {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: #55FF1A;
+
+
+}
+.second p{
+    /* margin-left: 5px; */
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.profile-card .third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 20px;
+    height: 60px;
+    padding: 20px 15px;
+    text-align: start;
+
+}
+.third .pic {
+    height: 40px;
+    margin-right: 9px;
+}
+
+.third .pic img {
+    height: 100%;
+    width: 100%;
+}
+
+.third .text h3 {
+    font-size: 13px;
+    font-family: Arial;
+}
+.third .text p {
+    font-family: arial;
+    font-size: 12px;
+}
