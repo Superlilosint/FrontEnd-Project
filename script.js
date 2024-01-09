@@ -9,4 +9,4 @@ setInterval(() => {
         counter +=1;
         number.innerHTML = `${counter}%`;
     }
-}, 2000);
+}, 2);

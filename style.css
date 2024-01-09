@@ -12,8 +12,8 @@
 
 html,
 body {
-  height: 248%;
-  width: 100%;
+  min-height: 100%;
+  max-width: 100%;
   /* overflow-x: hidden; */
 }
 
@@ -340,6 +340,8 @@ svg{
   padding: 24px 72px 0px 84px;
   /* margin-bottom: 23px; */
 }
+
+
 .About-page h1{
   margin-bottom: 26px;
 }
@@ -778,3 +780,223 @@ footer{
   font-size: 13px;
 
 }
+
+
+
+/* 
+@media screen () {
+  
+} */
+
+
+
+
+
+/* @media (1793px <= width <= 2560px){
+
+  
+  .navbar ul {
+    font-size: 27px;
+  }
+
+  .logo .svg {
+    width: 80px;
+    height: 104px;
+  }
+
+  .logo h3{
+    font-size: 35px;
+  }
+  .logo h5{
+    font-size: 23px;
+  }
+  .btn {
+    padding: 15px 26px;
+    font-size: 34px;
+  }
+  .picture {
+    height: 69vh;
+  }
+  .About-page {
+    height: 490px;
+    padding: 30px 97px 0px 92px;
+  }
+  .files{
+    justify-content: space-around;
+  }
+  .About-page .direction {
+    max-width: 10vw;
+    margin: auto;
+  }
+}
+
+@media (1794px <= width <= 1804px) {
+  .navbar ul {
+    font-size: 24px;
+  }
+  .btn {
+    font-size: 26px;
+  }
+  .picture {
+    height: 57vh;
+  }
+  .files{
+    justify-content: space-around;
+  }
+  .About-page .direction {
+    max-width: 39vw;
+    margin: 19px 480px;
+    text-align: center;
+  }
+  .botton-footer {
+    margin: 41px 0 10px 0;
+    font-size: 20px;
+  }
+  .right-footer img {
+    width: 53vw;
+    padding: 22px;
+
+  }
+  .team-sec {
+    height: 186vh;
+
+  }
+
+  .projectBadge {
+    top: -460px;
+    right: 112px;
+
+  }
+  .info {
+    top: 403px;
+    right: 117px;
+
+  }
+}
+ */
+
+
+
+ @media screen and (max-width: 480px) {
+
+  .navbar {
+    flex-direction: column;
+    height: 399px;
+  }
+  ul {
+    flex-direction: column;
+  }
+  .picture {
+    height: 35vh;
+  }
+  .Blog1 .First {
+    width: 100%;
+    margin-bottom: 384px;
+  }
+  .profile-card{
+    width: 299px;
+    height: 377px;
+    padding: 13px 43px;
+  }
+  .info {
+    top: 793px;
+    right: 100px;
+  }
+  .Blog1 {
+    margin-left: 30px;
+  }
+  .Blog1 .overview {
+    margin-top: 60px;
+    width: 93%;
+  }
+  .overview p {
+    margin-bottom: 520px;
+  }
+  .First h3{
+    font-size: 31px;
+    line-height: 65px;
+  }
+  .loader {
+    top: 79px;
+    left: 79px;
+  }
+  .profile-card .second {
+    top: 264px;
+  }
+  .projectBadge{
+    top: -475px;
+    right: 67px;
+  }
+  .About-page {
+    padding-left: 31px;
+    height: 1350px;
+  }
+  .files {
+    flex-direction: column;
+  }
+  .About-page .direction{
+    max-width: 38vw;
+    margin: auto;
+  }
+  .team-sec .top-sec .profile-sec{
+    flex-direction: column;
+  }
+  .team-sec {
+    height: 305vh;
+  }
+  .end-section {
+    width: 87vw;
+    margin-left: 30px;
+  }
+  .end-section .text-left{
+    width: 367px;
+  }
+  .end-section .text-left h2{
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .end-section .image-right {
+    width: 200px;
+    height: 190px;
+    top: -229px;
+    right: -33px;
+  }
+  .bottom-sec{
+    margin: 0 26px 84px 26px;
+  }
+  .top-sec{
+    margin-bottom: 46px;
+  }
+  .inner-mid-sec{
+    height: 341px;
+  }
+  .collab-sec {
+    padding-top: 0px;
+    height: 223px;
+  }
+  .collab-sec .data-sec {
+    margin-left: 5px;
+    gap: 6px;
+    width: 99vw;
+  }
+  .data-sec .address-sec{
+    width: 254px;
+  }
+  .data-sec .address-sec h3{
+    font-size: 19px;
+  }
+  .data-sec .address-sec p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .extra {
+    flex-direction: column;
+  }
+  .main-foot {
+    flex-direction: column;
+  }
+  .bottom-footer {
+    margin: 6px 0 10px 0;
+    padding-top: 8px;
+  }
+ }
