@@ -336,8 +336,8 @@ svg{
 .About-page {
   background-color: #DAE2FF;
   width: 100%;
-  height: 490px;
-  padding: 24px 72px 0px 84px;
+  height: 82%;
+  padding: 34px 72px 0px 84px;
   /* margin-bottom: 23px; */
 }
 
@@ -346,12 +346,13 @@ svg{
   margin-bottom: 26px;
 }
 .files {
-  max-width: 200vh;
+  max-width: 183vh;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: start;
-  gap: 25px;
+  gap: 11px;
+  /* flex-wrap: wrap; */
   
 }
 
@@ -359,7 +360,7 @@ svg{
 
 .About-page .files .pdf{
     background-color: white;
-    height: 277px;
+    height: 288px;
     width: 262px;
     border-radius: 10px;
 }
@@ -373,7 +374,7 @@ svg{
   padding: 0px 16px;
   font-family: "Montserrat";
   font-weight: 300;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .pdf1 .end-buttons{
@@ -409,8 +410,11 @@ svg{
   border: 1px solid #bfb8b8;
 }
 
+.end-left button{
+  border: none;
+}
 button img {
-  margin-left: 23px;
+  margin-left: 5px;
 }
 
 .About-page .direction {
@@ -426,6 +430,7 @@ button img {
 .team-sec {
   background: #D9D9D9;
   height: 200vh;
+
 
 }
 
@@ -449,7 +454,6 @@ button img {
 }
 
 .top-sec {
-  padding-top: 30px;
   margin-bottom: 40px;
 }
 
@@ -531,7 +535,7 @@ button img {
 
 .extra-info {
   border: 1px solid #446CFB;
-  width: 320px;
+  width: 29vw;
   padding: 10px;
   border-radius: 18px;
   /* display: flex; */
@@ -877,17 +881,31 @@ footer{
 
 
 
- @media screen and (max-width: 480px) {
-
+ @media screen and (min-width: 480px) and (max-width: 640px) {
   .navbar {
     flex-direction: column;
-    height: 399px;
+    height: 59vh;
+  }
+  .logo {
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo h3 {
+    font-size: 42px;
+  }
+  .logo h5 {
+    font-size: 20px;
+  }
+  .logo .svg{
+    width: 57px;
+    height: 52px;
   }
   ul {
     flex-direction: column;
+    font-size: 30px;
   }
   .picture {
-    height: 35vh;
+    height: 23vh;
   }
   .Blog1 .First {
     width: 100%;
@@ -898,10 +916,11 @@ footer{
     height: 377px;
     padding: 13px 43px;
   }
-  .info {
-    top: 793px;
-    right: 100px;
+  .info{
+    top: 101vh;
+    right: 24vw;
   }
+  
   .Blog1 {
     margin-left: 30px;
   }
@@ -913,7 +932,7 @@ footer{
     margin-bottom: 520px;
   }
   .First h3{
-    font-size: 31px;
+    font-size: 27px;
     line-height: 65px;
   }
   .loader {
@@ -924,45 +943,60 @@ footer{
     top: 264px;
   }
   .projectBadge{
-    top: -475px;
-    right: 67px;
-  }
+    width: 64vw;
+    top: -45vh;
+    right: 17vw;
+    height: 38vh;
+    text-align: center;
+    padding: 29px 0;
+}
   .About-page {
-    padding-left: 31px;
+    padding-left: 60px;
     height: 1350px;
+  }
+  .About-page h1{
+    width: 278px;
+    font-size: 24px;
   }
   .files {
     flex-direction: column;
   }
+  .About-page .direction img {
+    width: 50px;
+  }
   .About-page .direction{
-    max-width: 38vw;
+    max-width: 23vw;
     margin: auto;
   }
   .team-sec .top-sec .profile-sec{
     flex-direction: column;
   }
   .team-sec {
-    height: 305vh;
+    height: 337vh;
   }
   .end-section {
     width: 87vw;
-    margin-left: 30px;
+    margin-left: 32px;
+    padding-top: 231px;
+    height: 45vh;
   }
   .end-section .text-left{
-    width: 367px;
-  }
+    width: 382px;  }
   .end-section .text-left h2{
-    font-size: 24px;
+    font-size: 30px;
     line-height: 35px;
   }
   .end-section .image-right {
-    width: 200px;
-    height: 190px;
-    top: -229px;
-    right: -33px;
+    width: 211px;
+    height: 209px;
+    top: -32vh;
+    right: 26vw;
   }
   .bottom-sec{
-    margin: 0 26px 84px 26px;
+    margin: 0px 23px 81px 15px;
+  }
+  .extra-info{
+    width: 280px;
   }
   .top-sec{
     margin-bottom: 46px;
@@ -971,13 +1005,15 @@ footer{
     height: 341px;
   }
   .collab-sec {
-    padding-top: 0px;
-    height: 223px;
+    padding-top: 19px;
+    display: flex;
+    height: 39vh;
   }
   .collab-sec .data-sec {
     margin-left: 5px;
     gap: 6px;
     width: 99vw;
+    flex-direction: column;
   }
   .data-sec .address-sec{
     width: 254px;
@@ -994,9 +1030,170 @@ footer{
   }
   .main-foot {
     flex-direction: column;
+    height: 390px;
   }
-  .bottom-footer {
+  .bottom-footer{
+    width: 88vw;
     margin: 6px 0 10px 0;
-    padding-top: 8px;
+    padding-top: 5px;
+    font-size: 11px;
   }
  }
+
+ @media (min-width: 640px) and (max-width: 1024px){
+  .navbar {
+    flex-direction: column;
+    height: 50vh;
+  }
+  .logo {
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo .svg{
+    width: 69px;
+    height: 61px;
+  }
+  ul {
+    flex-direction: column;
+    font-size: 23px;
+  }
+  .picture {
+    height: 25vh;
+  }
+  .Blog1 .First {
+    width: 100%;
+    margin-bottom: 384px;
+  }
+  .profile-card{
+    width: 299px;
+    height: 377px;
+    padding: 13px 43px;
+  }
+  .info{
+    top: 90vh;
+    right: 28vw;
+  }
+  
+  .Blog1 {
+    margin-left: 30px;
+  }
+  .Blog1 .overview {
+    margin-top: 60px;
+    width: 93%;
+  }
+  .overview p {
+    margin-bottom: 520px;
+  }
+  .First h3{
+    font-size: 27px;
+    line-height: 65px;
+  }
+  .loader {
+    top: 79px;
+    left: 79px;
+  }
+  .profile-card .second {
+    top: 264px;
+  }
+  .projectBadge{
+    width: 43vw;
+    top: -46vh;
+    right: 25vw;
+    height: 41vh;
+    text-align: center;
+    padding: 29px 0;
+}
+  .About-page {
+    padding-left: 60px;
+    height: 1350px;
+  }
+  .About-page h1{
+    width: 278px;
+    font-size: 24px;
+  }
+  .files {
+    flex-direction: column;
+  }
+  .About-page .direction img {
+    width: 67px;  }
+  .About-page .direction{
+    max-width: 25vw;
+    margin: auto;
+  }
+  .team-sec .top-sec .profile-sec{
+    flex-direction: column;
+  }
+  .team-sec {
+    height: 319vh;
+  }
+  .end-section {
+    width: 94vw;
+    margin-left: 32px;
+    padding-top: 29px;
+    height: 34vh;
+  }
+  .end-section .text-left{
+    width: 373px;
+  
+  }
+  .end-section .text-left h2{
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .end-section .image-right {
+    width: 226px;
+    height: 233px;
+    top: -24vh;
+    right: 2vw;
+  }
+  .bottom-sec{
+    margin: 0px 23px 81px 15px;
+  }
+  .extra-info {
+    width: 76vw;
+  }
+  .top-sec{
+    margin-bottom: 46px;
+  }
+  .inner-mid-sec{
+    height: 341px;
+  }
+  .collab-sec {
+    padding-top: 19px;
+    display: flex;
+    height: 26vh;
+  }
+  .collab-sec .data-sec {
+    margin-left: 5px;
+    gap: 6px;
+    width: 99vw;
+    /* flex-direction: rwo; */
+  }
+  .data-sec .address-sec{
+    width: 392px;
+  }
+  .data-sec .address-sec h3{
+    font-size: 19px;
+  }
+  .data-sec .address-sec p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .extra {
+    flex-direction: column;
+  }
+  footer {
+    height: 455px;
+  }
+  .main-foot {
+    flex-direction: column;
+    height: 460px;
+  }
+  .bottom-footer{
+    width: 88vw;
+    margin: 6px 0 10px 0;
+    padding-top: 5px;
+    font-size: 11px;
+  }
+}
+ 
